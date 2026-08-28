@@ -1,3 +1,5 @@
+package zoo;
+
 /** Zwierze */
 public abstract class Zwierze implements IKarmiony, IWydajacyDzwiek {
 

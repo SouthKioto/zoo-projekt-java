@@ -1,3 +1,7 @@
+package zoo.ssaki;
+
+import zoo.Zwierze;
+
 /** Ssak */
 public abstract class Ssak extends Zwierze {
 

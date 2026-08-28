@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import zoo.Zwierze;
 
 /** Zoo */
 public abstract class Zoo {
@@ -15,7 +16,18 @@ public abstract class Zoo {
 
   public void przeprowadzKarmienie() {
     for (Zwierze zwierze : zwierzeta) {
-      zwierze.jedz(pokarm);
+      // zwierze.jedz();
     }
   }
+
+  public void raportDzienny() {}
+
+  /*
+   * public ArrayList<Zwierze> getGlodneZwierzeta() {
+   * ArrayList<Zwierze> glodneZwierzeta;
+   *
+   * return glodneZwierzeta;
+   *
+   * }
+   */
 }

@@ -1,3 +1,5 @@
+package zoo;
+
 /** Pokarm */
 public class Pokarm {
 

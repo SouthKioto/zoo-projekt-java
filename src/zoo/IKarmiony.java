@@ -1,4 +1,4 @@
 /** IKarmiony */
 public interface IKarmiony {
-  public void jedz();
+  public void jedz(Pokarm pokarm);
 }
