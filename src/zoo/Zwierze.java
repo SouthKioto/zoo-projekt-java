@@ -3,10 +3,10 @@ package zoo;
 /** Zwierze */
 public abstract class Zwierze implements IKarmiony, IWydajacyDzwiek {
 
-  private String imie;
-  private int wiek;
-  private double energia;
-  private double glod;
+  protected String imie;
+  protected int wiek;
+  protected double energia;
+  protected double glod;
 
   public Zwierze(String imie, int wiek) {
     this.imie = imie;
