@@ -7,7 +7,7 @@ import zoo.TypPokarmu;
 public class Slon extends Ssak {
   private int dlugoscTraby;
 
-  Slon(String imie, int wiek, String kolorSiersci, int dlugoscTraby) {
+  public Slon(String imie, int wiek, String kolorSiersci, int dlugoscTraby) {
     super(imie, wiek, kolorSiersci);
     this.dlugoscTraby = dlugoscTraby;
   }

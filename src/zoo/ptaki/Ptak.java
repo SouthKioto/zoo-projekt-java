@@ -1,3 +1,5 @@
+package zoo.ptaki;
+
 import zoo.Zwierze;
 
 /** Ptak */

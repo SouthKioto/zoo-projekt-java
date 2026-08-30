@@ -7,7 +7,7 @@ import zoo.TypPokarmu;
 public class Malpa extends Ssak {
   private int poziomZwinnosci;
 
-  Malpa(String imie, int wiek, String kolorSiersci, int poziomZwinnosci) {
+  public Malpa(String imie, int wiek, String kolorSiersci, int poziomZwinnosci) {
     super(imie, wiek, kolorSiersci);
     this.poziomZwinnosci = poziomZwinnosci;
   }

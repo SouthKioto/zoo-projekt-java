@@ -11,8 +11,8 @@ public abstract class Zwierze implements IKarmiony, IWydajacyDzwiek {
   public Zwierze(String imie, int wiek) {
     this.imie = imie;
     this.wiek = wiek;
-    this.energia = 100;
-    this.glod = 0;
+    this.energia = (Math.random() * 101);
+    this.glod = (Math.random() * 101);
   }
 
   public abstract void jedz(Pokarm pokarm);
@@ -30,7 +30,7 @@ public abstract class Zwierze implements IKarmiony, IWydajacyDzwiek {
   }
 
   public boolean czyGlodny() {
-    if (glod <= 2) {
+    if (glod <= 50) {
       return true;
     }
 

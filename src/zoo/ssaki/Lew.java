@@ -7,7 +7,7 @@ import zoo.TypPokarmu;
 public class Lew extends Ssak {
   private int sila;
 
-  Lew(String imie, int wiek, String kolorSiersci, int sila) {
+  public Lew(String imie, int wiek, String kolorSiersci, int sila) {
     super(imie, wiek, kolorSiersci);
     this.sila = sila;
   }
@@ -29,5 +29,9 @@ public class Lew extends Ssak {
       glod += pokarm.getWartoscOdzywcza();
       System.out.println("Lew je");
     }
+  }
+
+  public int getSila() {
+    return this.sila;
   }
 }
