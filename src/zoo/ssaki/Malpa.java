@@ -8,11 +8,11 @@ public class Malpa extends Ssak {
   private int poziomZwinnosci;
 
   Malpa(String imie, int wiek, String kolorSiersci, int poziomZwinnosci) {
-    super(imie, wiek, kolorSiersci)
+    super(imie, wiek, kolorSiersci);
     this.poziomZwinnosci = poziomZwinnosci;
   }
 
-public String wydajDzwiek() {
+  public String wydajDzwiek() {
     energia -= 5;
     return "HIHI HAHA!!";
   }
